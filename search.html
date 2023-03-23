@@ -8,9 +8,21 @@
   </head>
   <body>
     <h1>Google Super Search</h1>
-      <form action="https://www.google.com/search/" method="GET">
+      <form action="https://www.google.com/search/" method="GET" target="blank">
         <fieldset>
+          <div>
+          <label for="searchbox">Search String</label>
           <input type="text" name="q" id="searchbox">
+          </div>
+          <div>
+          <label for="site"Select a Site</label>
+          <select name="as_sitesearch">
+             <option value="unco.edu">University of Northern Colorado</option>
+             <option value="instructure.com">Canvas</option>
+             <option value="w3schools.com">W3 Schools</option>
+             <option value="html.specwhat.wg.org">HTML Living Standards</option>
+         </select>
+          </div>
         </fieldset>
       </form>
    <h2> Link to Home</h2>
