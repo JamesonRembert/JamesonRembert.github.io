@@ -9,7 +9,7 @@
   <body>
     <h1>Google Super Search</h1>
       <form action="https://www.google.com/search/" method="GET" target="blank">
-        <fieldset>
+        <fieldset id="toplevelset">
           <div>
           <label for="searchbox">Search String</label>
           <input type="text" name="q" id="searchbox">
@@ -23,6 +23,9 @@
              <option value="html.specwhat.wg.org">HTML Living Standards</option>
          </select>
           </div>
+          <div>
+              <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+              <label for="checkwindow">Open Links in New Window</label>
         </fieldset>
       </form>
    <h2> Link to Home</h2>
