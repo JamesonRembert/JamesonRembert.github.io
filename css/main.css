@@ -1,1 +1,10 @@
-
+body
+{
+  background color: grey;
+}
+img {
+  border-radius: 40%;
+}
+h1 {
+  font-size: 48px;
+}
